@@ -1,0 +1,16 @@
+{
+  "name": "Aurum — Alta Cocina en Donostia",
+  "short_name": "Aurum",
+  "description": "Concept fine-dining website for a fictional three-Michelin-star restaurant.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0C0A08",
+  "theme_color": "#0C0A08",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
