@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url('https://static.figma.com/font/BodoniModa_opsz_wght__2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url('https://static.figma.com/font/BodoniModa-Italic_opsz_wght__2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+}
+
+@theme {
+  --font-serif: 'Bodoni Moda', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --color-aurum-black:     #0C0A08;
+  --color-aurum-black-2:   #0F0D0B;
+  --color-aurum-black-3:   #0A0806;
+  --color-aurum-ivory:     #F0EAE0;
+  --color-aurum-offwhite:  #FAF8F3;
+  --color-aurum-gray:      #8B8278;
+  --color-aurum-gray-mid:  #857A6C;
+  --color-aurum-bronze:    #A67C52;
+  --color-aurum-champagne: #C9A97A;
+  --color-aurum-border:    rgba(240, 234, 224, 0.10);
+  --color-aurum-border-2:  rgba(240, 234, 224, 0.06);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--aurum-black);
+  color: var(--aurum-ivory);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--aurum-champagne);
+  color: var(--aurum-black);
+}
+
+@keyframes scrollLine {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(250%); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

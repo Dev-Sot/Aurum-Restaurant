@@ -1,0 +1,15 @@
+{
+  "title": "Aurum — Alta Cocina en Donostia",
+  "description": "Experience the elegance of a three Michelin-starred restaurant through a digital experience designed for haute cuisine. A concept fine-dining site built as a frontend portfolio piece.",
+  "language": "es",
+  "robots": {
+    "index": true
+  },
+  "icons": {
+    "icon": "/favicon.svg"
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

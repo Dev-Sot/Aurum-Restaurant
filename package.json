@@ -1,0 +1,63 @@
+{
+  "name": "aurum-restaurant",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A concept fine-dining website for a fictional three-Michelin-star restaurant — a frontend portfolio piece exploring editorial composition, a hand-built design system, custom i18n/routing, and AI-assisted development.",
+  "type": "module",
+  "homepage": "https://aurum.example.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Sot/Aurum-Restaurant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dev-Sot/Aurum-Restaurant/issues"
+  },
+  "author": {
+    "name": "Dev-Sot",
+    "url": "https://github.com/Dev-Sot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "framer-motion",
+    "portfolio",
+    "design-system",
+    "i18n",
+    "fine-dining",
+    "restaurant-website"
+  ],
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "format": "oxfmt"
+  },
+  "dependencies": {
+    "framer-motion": "^12.42.2",
+    "lucide-react": "^1.25.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "eslint": "^10.7.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "oxfmt": "^0.2.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.64.0",
+    "vite": "^8.0.0"
+  }
+}
