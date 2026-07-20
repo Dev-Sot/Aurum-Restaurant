@@ -1,0 +1,328 @@
+import type { Translation } from './types'
+
+export const en: Translation = {
+  meta: {
+    htmlLang: 'en',
+    title: 'Aurum — Fine Dining in Donostia',
+    description: 'Experience the elegance of a three Michelin-starred restaurant through a digital experience designed for haute cuisine.',
+  },
+  nav: {
+    tagline: 'Donostia · Est. 1998',
+    links: [
+      { label: 'Menu', href: '#menu' },
+      { label: 'Story', href: '#historia' },
+      { label: 'The Chef', href: '#chef' },
+      { label: 'Gallery', href: '#galeria' },
+      { label: 'Contact', href: '#contacto' },
+    ],
+    cta: 'Reserve',
+    openMenu: 'Open menu',
+    closeMenu: 'Close menu',
+    skipToContent: 'Skip to content',
+    caseStudyLink: 'The Project',
+    backHome: 'Back to site',
+  },
+  hero: {
+    eyebrow: 'Three Michelin Stars · Donostia · Basque Country',
+    titleLine1: 'The Art',
+    titleLine2Italic: 'of the',
+    titleLine3: 'Table',
+    subtitle: 'A twenty-four act gastronomic journey designed by Chef Alejandro Vega',
+    cta: 'Request a Table',
+    scroll: 'Scroll',
+    est: 'Est. 1998',
+  },
+  manifesto: {
+    eyebrow: 'Our Philosophy',
+    quoteLines: ['"Gold is not found.', 'It reveals itself, slowly,', 'in hands that know how to wait."'],
+    body: 'At Aurum we believe that haute cuisine is a quiet conversation between the cook, the land and time. Every dish begins with a rigorous reading of what nature offers at its most precise moment.',
+    imageAlt: 'The Aurum dining room',
+    imageCaption: 'The dining room · 2024',
+    imageMeta: '28 seats',
+  },
+  identityStrip: [
+    { n: '1998', l: 'Founded' },
+    { n: '★★★', l: 'Michelin' },
+    { n: '28', l: 'Seats' },
+    { n: '24', l: 'Courses' },
+    { n: '#4', l: 'Europe 2024' },
+    { n: '12', l: 'Producers' },
+  ],
+  experience: {
+    heading: 'The Experience',
+    label: 'Three acts. One journey.',
+    items: [
+      {
+        n: '01',
+        title: 'The Produce',
+        desc: 'We work exclusively with producers from the Basque Country and Navarre. Selecting each ingredient is the start of the creative process. No compromise.',
+        img: 'photo-1567620905732-2d1ec7ab7445',
+      },
+      {
+        n: '02',
+        title: 'The Technique',
+        desc: 'Twenty years of culinary research distilled into precise gestures. Fermentation, curing, controlled oxidation. Science in the service of emotion.',
+        img: 'photo-1547592180-85f173990554',
+      },
+      {
+        n: '03',
+        title: 'The Moment',
+        desc: 'Every service is unique. The room, the temperature, the guests, the season. Tonight\'s dish will never exist the same way again tomorrow.',
+        img: 'photo-1565299507177-b0ac66763828',
+      },
+    ],
+  },
+  ingredients: {
+    label: 'The language of the season',
+    seasonLabel: 'Winter 2025',
+    headingLine1: 'Signature',
+    headingLine2Italic: 'Ingredients',
+    originLabel: 'Origin',
+    seasonFieldLabel: 'Season',
+    items: [
+      {
+        name: 'Getaria Oysters',
+        desc: 'Cured for 72 hours in filtered seawater. Served with Reineta apple granita and sea urchin oil.',
+        origin: 'Getaria, Gipuzkoa',
+        season: 'Oct — Mar',
+        img: 'photo-1504674900247-0877df9cc836',
+      },
+      {
+        name: 'Black Truffle',
+        desc: 'From the oak groves of Soria. Ripeness is checked daily. It only enters the kitchen the moment it reaches its exact peak.',
+        origin: 'Abejar, Soria',
+        season: 'Jan — Mar',
+        img: 'photo-1482049016688-2d3e1b311543',
+      },
+      {
+        name: 'Landes Foie Gras',
+        desc: 'Four hours of sous-vide cooking at 65.5°C. Temperature isn\'t a detail here. It is the dish.',
+        origin: 'Landes, France',
+        season: 'Year-round',
+        img: 'photo-1466978913421-dad2ebd01d17',
+      },
+    ],
+  },
+  chef: {
+    eyebrow: 'The Chef',
+    firstName: 'Alejandro',
+    lastName: 'Vega',
+    imageAlt: 'Chef Alejandro Vega',
+    bio: [
+      'Trained in the kitchens of Ferran Adrià, Heston Blumenthal and René Redzepi, Alejandro Vega returned to the Basque Country in 1998 with a single idea: to cook the land he was born in.',
+      'Aurum is his personal answer to the question that guides his work: what does it mean to cook with honesty in the 21st century?',
+    ],
+    stats: [
+      { n: '27', l: 'years in the craft' },
+      { n: '★★★', l: 'Michelin 2008' },
+      { n: '#4', l: 'Europe 2024' },
+    ],
+    quoteLines: ['"Cooking is the most honest', 'way to tell the truth."'],
+  },
+  menu: {
+    eyebrow: 'The Menu',
+    headingLine1: 'Tasting',
+    headingLine2Italic: 'Menu',
+    body: 'Twenty-four courses. Seven hours. A journey through the Basque territory and the markets that shape Aurum\'s identity every season.',
+    pricing: [
+      { v: '€295', l: 'Per person' },
+      { v: '€195', l: 'Wine pairing' },
+    ],
+    courses: [
+      { n: '—', name: 'Welcome bites', desc: 'Seasonal snacks · Billecart-Salmon Blanc de Blancs Champagne' },
+      { n: 'I', name: 'Oyster · Sea · Stone', desc: 'Getaria, Reineta apple granita, sea urchin oil' },
+      { n: 'II', name: 'Asparagus · Bergamot · Caviar', desc: 'Navarre, 48h in buttermilk, smoked butter royale' },
+      { n: 'III', name: 'Spider Crab · Kombu · Yellow Wine', desc: 'Concentrated broth, sea textures, crispy seaweed bread' },
+      { n: 'IV', name: 'Prawn · Fennel · Verbena', desc: 'Grilled Santa Pola prawn, herb butter, yuzu gel' },
+      { n: 'V', name: 'Foie Gras · Quince · Hazelnut', desc: 'Landes, 4h at 65.5°C, Ribera del Duero quince chutney' },
+      { n: 'VI', name: 'Sea Bass · Smoked Olive · Wild Garlic', desc: 'Mediterranean, crispy scales, bone sauce, olive earth' },
+      { n: 'VII', name: 'Milk-Fed Lamb · Apple · Black Truffle', desc: 'Roa churro bread, 12h slow cooking, caramelized apple chips' },
+      { n: '—', name: 'Cheese selection', desc: 'Northern Spain cheese cart · Seasonal accompaniments' },
+      { n: 'VIII', name: 'Pre-dessert', desc: 'Yuzu and matcha sorbet, ginger foam' },
+      { n: 'IX', name: 'Chocolate · Caramel · Sea Salt', desc: 'Valrhona Guanaja 70%, Brittany caramel, toasted cacao ice cream' },
+      { n: '—', name: 'Petits fours', desc: 'From the Aurum pastry workshop' },
+    ],
+  },
+  awards: {
+    michelinLabel: 'Michelin Guide Spain · Three Stars since 2008',
+    press: [
+      "World's 50 Best · #12",
+      'The New York Times · 4 Stars',
+      'Financial Times · Restaurant of the Year',
+      'El País · National Award',
+      'Gourmet Traveller · #1 Europe',
+    ],
+  },
+  gallery: {
+    headingPrefix: 'The',
+    headingItalic: 'Gallery',
+    seasonLabel: 'Winter 2025 season',
+    viewLabel: 'View',
+    items: [
+      { id: 'photo-1414235077428-338989a2e8c0', caption: 'Oyster · Sea · Stone' },
+      { id: 'photo-1551218808-94e220e084d2', caption: 'The Aurum dining room' },
+      { id: 'photo-1504674900247-0877df9cc836', caption: 'Lamb · Apple · Truffle' },
+      { id: 'photo-1466978913421-dad2ebd01d17', caption: 'A night of service' },
+      { id: 'photo-1482049016688-2d3e1b311543', caption: 'Chocolate · Caramel · Salt' },
+    ],
+  },
+  testimonials: {
+    label: 'International press',
+    dotLabel: 'View testimonial',
+    quotes: [
+      {
+        q: 'A meal at Aurum is not dinner. It is the closest thing to reading a great novel in a single evening.',
+        author: 'Jay Rayner',
+        pub: 'The Guardian',
+      },
+      {
+        q: 'Vega has achieved something that takes a lifetime: a cuisine that feels simultaneously ancient and uncharted.',
+        author: 'Pete Wells',
+        pub: 'The New York Times',
+      },
+      {
+        q: 'Three stars are not enough to describe what happens in that twenty-eight-seat dining room in Donostia.',
+        author: 'Rafael García Santos',
+        pub: 'Lo Mejor de la Gastronomía',
+      },
+    ],
+  },
+  reservation: {
+    eyebrow: 'Reservations',
+    headingLine1: 'Reserve',
+    headingLine2Italic: 'Your Table',
+    body: 'We accept requests up to three months in advance. We confirm availability within 48 hours. The experience lasts approximately seven hours.',
+    info: [
+      { l: 'Service hours', v: 'Tuesday to Saturday · 8:00 PM' },
+      { l: 'Phone', v: '+34 943 000 000' },
+      { l: 'Email', v: 'reservas@aurum.es' },
+      { l: 'Address', v: '1 Calle Mayor · Donostia' },
+    ],
+    form: {
+      nameLabel: 'Full name',
+      namePlaceholder: 'Your name',
+      emailLabel: 'Email address',
+      dateLabel: 'Preferred date',
+      guestsLabel: 'Guests',
+      guestSingular: 'guest',
+      guestPlural: 'guests',
+      notesLabel: 'Special requests',
+      notesPlaceholder: 'Allergies, celebrations, preferences...',
+      submit: 'Submit Request',
+      successTitle: 'Request received',
+      successBody: 'Thank you. We will confirm your table\'s availability by email within the next 48 hours.',
+      successReset: 'Make another request',
+    },
+  },
+  footer: {
+    tagline: 'Restaurant · Donostia · ★★★',
+    address: ['1 Calle Mayor', '20003 Donostia-San Sebastián', 'Basque Country, Spain'],
+    restaurantTitle: 'Restaurant',
+    restaurantLinks: ['Tasting menu', 'The Chef', 'Our story', 'Gallery', 'Press'],
+    reservationsTitle: 'Reservations',
+    reservationLinks: ['Book a table', 'Private events', 'Wine pairing', 'FAQ', 'Cancellations'],
+    contactTitle: 'Contact',
+    contact: [
+      { l: 'Phone', v: '+34 943 000 000' },
+      { l: 'Email', v: 'reservas@aurum.es' },
+      { l: 'Hours', v: 'Tue – Sat 8:00 PM' },
+    ],
+    copyright: '© 2025 Aurum Restaurante S.L. All rights reserved.',
+    social: ['Instagram', 'Facebook', 'LinkedIn'],
+    credit: {
+      label: 'Concept Project',
+      designedBy: 'Designed & Developed by',
+      devName: 'Dev-Sot',
+      brandLabel: 'Studio',
+      brandName: 'Extracurricular',
+      linkedin: 'LinkedIn (coming soon)',
+    },
+  },
+  caseStudy: {
+    metaTitle: 'The Project — Aurum',
+    eyebrow: 'Case Study',
+    title: 'About this project',
+    subtitle: 'Aurum is a portfolio piece: a concept fine-dining site built to explore editorial composition, design systems and AI-assisted development in a real working flow.',
+    sections: [
+      {
+        heading: 'Objective',
+        body: [
+          'Aurum isn\'t a real restaurant. It\'s a frontend design and development exercise under the constraints of a luxury brief: typography as the lead actor, generous negative space, restrained microinteractions, and zero visual inconsistency between sections.',
+          'The technical goal was twofold: produce an interface that could stand next to work from studios like Locomotive or Basic Agency, and do it with a codebase a real team could maintain — no shortcuts that show up six months later.',
+        ],
+      },
+      {
+        heading: 'Design Process',
+        body: [
+          'The project started inside Figma Make, which exports a first working React draft directly from the design canvas. That draft — a single 1,100+ line file with inline styles — was the real starting point, not a static mockup.',
+          'From there, the work was iterative refinement: auditing composition, spacing and typographic hierarchy section by section, deciding case by case whether the original pattern already worked or deserved to be broken.',
+        ],
+      },
+      {
+        heading: 'Design System',
+        body: [
+          'A five-tone palette (warm black, ivory, gray, bronze, champagne) defined as color tokens in Tailwind v4 via @theme, instead of loose values repeated across files.',
+          'Dual typography: Bodoni Moda for anything that needs presence (headings, figures, quotes) and Inter for everything functional (labels, body copy, forms), with wide-tracked uppercase as a consistent visual signature.',
+          'Deliberately thin primitive components (Heading, Body, Eyebrow, Button, Reveal) that only lock down what never changes between uses — to avoid the Tailwind specificity conflict that happens when a base class and an override class compete for the same property.',
+        ],
+      },
+      {
+        heading: 'Tech Stack',
+        body: [
+          'React 19 + strict TypeScript on Vite, with Tailwind CSS v4 (the @theme engine, no separate PostCSS config) and Framer Motion driving the scroll-reveal system and the hero parallax.',
+          'No backend: the reservation form, language switcher and testimonial carousel run entirely on local React state. i18n and routing between this page and the main site are both custom-built, with no external libraries — a deliberate choice, not a technical limitation.',
+        ],
+      },
+      {
+        heading: 'Architecture',
+        body: [
+          'src/sections holds one section per file; src/components holds only reusable primitives with no knowledge of content; src/i18n centralizes every interface string in a single object typed per language, so TypeScript fails the build if a translation is missing.',
+          'No section component imports hardcoded text: everything goes through the useTranslation() hook, which means adding a third language is, in theory, a matter of one new file.',
+        ],
+      },
+      {
+        heading: 'Animations',
+        body: [
+          'Each section watches its own visibility with Framer Motion\'s useInView hook and reveals its content once, with a 30px vertical offset and a cubic-bezier(0.16,1,0.3,1) curve — a sharply-decelerating entrance meant to feel editorial, not flashy.',
+          'The hero parallax uses useScroll + useTransform instead of manually recalculating position on every scroll event, avoiding unnecessary React re-renders.',
+        ],
+      },
+      {
+        heading: 'Accessibility',
+        body: [
+          'Navigation links point to real section ids (they used to be dead href="#" links), a skip-link to the main content, and visible focus states on buttons, links, inputs and the testimonial carousel dots.',
+          'All animation respects prefers-reduced-motion via MotionConfig, and color contrast was checked against WCAG AA — one secondary tone (the footer\'s muted gray) failed the 4.5:1 minimum and was adjusted once measured.',
+        ],
+      },
+      {
+        heading: 'Optimization',
+        body: [
+          'Responsive design was built mobile-first with one shared value set per section (sectionPadding) instead of scattered repeated rules, and multi-column grids collapse to a single column by default instead of compressing.',
+          'Images sit in fixed-height containers to reserve space and avoid layout shift, and the production build was checked at every iteration with strict TypeScript and a Vite build.',
+        ],
+      },
+      {
+        heading: 'Challenges',
+        body: [
+          'The biggest problem wasn\'t visual, it was structural: the first version had zero responsive breakpoints. It was caught with a real screenshot at 390px wide, not by inspecting the code — the desktop layout simply didn\'t collapse into columns on mobile.',
+          'The second was subtler: when the inline styles were extracted into Tailwind components, a text color was left undefined on several headings, leaving them almost invisible against the black background. It only surfaced by comparing real screenshots against the original design, which confirmed that automated visual verification isn\'t optional on a project like this.',
+        ],
+      },
+      {
+        heading: 'Lessons Learned',
+        body: [
+          'Separating what never changes from what varies per section (base typography vs. specific size/color) avoids Tailwind specificity conflicts that are hard to debug precisely because they aren\'t errors — the CSS compiles fine, it just doesn\'t apply the rule you expect.',
+          'Building iteratively with AI works best with explicit verification checkpoints (type-check, build, real screenshots at all three breakpoints) rather than trusting that code "looks right" from a description. The discipline was: every major structural change got a visual check before moving to the next one.',
+        ],
+      },
+    ],
+    factsHeading: 'By the numbers',
+    facts: [
+      { label: 'Stack', value: 'React 19 · TypeScript · Tailwind v4 · Framer Motion' },
+      { label: 'Sections', value: '13 + project page' },
+      { label: 'Languages', value: 'Spanish / English' },
+      { label: 'External i18n/routing dependencies', value: '0' },
+      { label: 'Origin', value: 'Figma Make → iterative refactor' },
+    ],
+  },
+}

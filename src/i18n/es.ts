@@ -1,0 +1,328 @@
+import type { Translation } from './types'
+
+export const es: Translation = {
+  meta: {
+    htmlLang: 'es',
+    title: 'Aurum — Alta cocina en Donostia',
+    description: 'Experimenta la elegancia de un restaurante con tres estrellas Michelin a través de una experiencia digital diseñada para la alta cocina.',
+  },
+  nav: {
+    tagline: 'Donostia · Est. 1998',
+    links: [
+      { label: 'Menú', href: '#menu' },
+      { label: 'Historia', href: '#historia' },
+      { label: 'El Chef', href: '#chef' },
+      { label: 'Galería', href: '#galeria' },
+      { label: 'Contacto', href: '#contacto' },
+    ],
+    cta: 'Reservar',
+    openMenu: 'Abrir menú',
+    closeMenu: 'Cerrar menú',
+    skipToContent: 'Saltar al contenido',
+    caseStudyLink: 'El Proyecto',
+    backHome: 'Volver al sitio',
+  },
+  hero: {
+    eyebrow: 'Tres Estrellas Michelin · Donostia · País Vasco',
+    titleLine1: 'El Arte',
+    titleLine2Italic: 'de la',
+    titleLine3: 'Mesa',
+    subtitle: 'Un viaje gastronómico de veinticuatro actos diseñado por el Chef Alejandro Vega',
+    cta: 'Solicitar Reserva',
+    scroll: 'Scroll',
+    est: 'Est. 1998',
+  },
+  manifesto: {
+    eyebrow: 'Nuestra Filosofía',
+    quoteLines: ['"El oro no se encuentra.', 'Se revela, lentamente,', 'en manos que saben esperar."'],
+    body: 'En Aurum creemos que la alta cocina es una conversación silenciosa entre el cocinero, el territorio y el tiempo. Cada plato nace de la observación rigurosa de lo que la naturaleza ofrece en su momento más preciso.',
+    imageAlt: 'Sala del restaurante Aurum',
+    imageCaption: 'La sala · 2024',
+    imageMeta: '28 cubiertos',
+  },
+  identityStrip: [
+    { n: '1998', l: 'Fundación' },
+    { n: '★★★', l: 'Michelin' },
+    { n: '28', l: 'Cubiertos' },
+    { n: '24', l: 'Servicios' },
+    { n: '#4', l: 'Europa 2024' },
+    { n: '12', l: 'Productores' },
+  ],
+  experience: {
+    heading: 'La Experiencia',
+    label: 'Tres actos. Un viaje.',
+    items: [
+      {
+        n: '01',
+        title: 'El Producto',
+        desc: 'Trabajamos exclusivamente con productores del País Vasco y Navarra. La selección de cada ingrediente es el inicio del proceso creativo. Sin compromiso.',
+        img: 'photo-1567620905732-2d1ec7ab7445',
+      },
+      {
+        n: '02',
+        title: 'La Técnica',
+        desc: 'Veinte años de investigación culinaria destilados en gestos precisos. Fermentación, curación, oxidación controlada. La ciencia al servicio de la emoción.',
+        img: 'photo-1547592180-85f173990554',
+      },
+      {
+        n: '03',
+        title: 'El Momento',
+        desc: 'Cada servicio es único. La sala, la temperatura, los comensales, la estación. El plato que sirvamos esta noche no existirá mañana de la misma forma.',
+        img: 'photo-1565299507177-b0ac66763828',
+      },
+    ],
+  },
+  ingredients: {
+    label: 'El lenguaje de la temporada',
+    seasonLabel: 'Invierno 2025',
+    headingLine1: 'Ingredientes',
+    headingLine2Italic: 'Protagonistas',
+    originLabel: 'Origen',
+    seasonFieldLabel: 'Temporada',
+    items: [
+      {
+        name: 'Ostras de Getaria',
+        desc: 'Curadas durante 72 horas en agua de mar filtrada. Servidas con granizado de manzana Reineta y aceite de erizo de mar.',
+        origin: 'Getaria, Gipuzkoa',
+        season: 'Oct — Mar',
+        img: 'photo-1504674900247-0877df9cc836',
+      },
+      {
+        name: 'Trufa Negra',
+        desc: 'De los robledales de Soria. La madurez se calibra a diario. Solo entra en cocina cuando alcanza su momento exacto.',
+        origin: 'Abejar, Soria',
+        season: 'Ene — Mar',
+        img: 'photo-1482049016688-2d3e1b311543',
+      },
+      {
+        name: 'Foie Gras de Landes',
+        desc: 'Cuatro horas de cocción sous-vide a 65.5°C. La temperatura no es un detalle. Es el plato.',
+        origin: 'Landes, Francia',
+        season: 'Todo el año',
+        img: 'photo-1466978913421-dad2ebd01d17',
+      },
+    ],
+  },
+  chef: {
+    eyebrow: 'El Chef',
+    firstName: 'Alejandro',
+    lastName: 'Vega',
+    imageAlt: 'Chef Alejandro Vega',
+    bio: [
+      'Formado en las cocinas de Ferran Adrià, Heston Blumenthal y René Redzepi, Alejandro Vega regresó al País Vasco en 1998 con una sola idea: cocinar el territorio en el que nació.',
+      'Aurum es su respuesta personal a la pregunta que guía su trabajo: ¿qué significa cocinar con honestidad en el siglo XXI?',
+    ],
+    stats: [
+      { n: '27', l: 'años de carrera' },
+      { n: '★★★', l: 'Michelin 2008' },
+      { n: '#4', l: 'Europa 2024' },
+    ],
+    quoteLines: ['"Cocinar es la forma más honesta', 'de contar la verdad."'],
+  },
+  menu: {
+    eyebrow: 'El Menú',
+    headingLine1: 'Menú',
+    headingLine2Italic: 'Degustación',
+    body: 'Veinticuatro servicios. Siete horas. Un viaje por el territorio vasco y los mercados que nutren la identidad de Aurum cada temporada.',
+    pricing: [
+      { v: '€295', l: 'Por persona' },
+      { v: '€195', l: 'Maridaje de vinos' },
+    ],
+    courses: [
+      { n: '—', name: 'Aperitivos de bienvenida', desc: 'Snacks de temporada · Champagne Billecart-Salmon Blanc de Blancs' },
+      { n: 'I', name: 'Ostra · Mar · Piedra', desc: 'Getaria, granizado de manzana Reineta, aceite de erizo de mar' },
+      { n: 'II', name: 'Espárrago · Bergamota · Caviar', desc: 'Navarra, 48h en suero de leche, royal de mantequilla ahumada' },
+      { n: 'III', name: 'Centollo · Kombu · Vino amarillo', desc: 'Caldo concentrado, texturas de mar, pan crujiente de algas' },
+      { n: 'IV', name: 'Langostino · Hinojo · Verbena', desc: 'Santa Pola a la brasa, mantequilla de hierbas, gel de yuzu' },
+      { n: 'V', name: 'Foie gras · Membrillo · Avellana', desc: 'Landes, 4h a 65.5°C, chutney de membrillo de la Ribera del Duero' },
+      { n: 'VI', name: 'Lubina · Oliva ahumada · Ajo silvestre', desc: 'Mediterráneo, escamas crujientes, salsa de espinas, tierra de aceitunas' },
+      { n: 'VII', name: 'Lechazo · Manzana · Trufa negra', desc: 'Churro de Roa, cocción lenta 12h, chips de manzana caramelizada' },
+      { n: '—', name: 'Selección de quesos', desc: 'Carrito de quesos del Norte · Acompañamientos de temporada' },
+      { n: 'VIII', name: 'Pre-postre', desc: 'Sorbete de yuzu y matcha, espuma de jengibre' },
+      { n: 'IX', name: 'Chocolate · Caramelo · Flor de sal', desc: 'Valrhona Guanaja 70%, caramelo de Bretaña, helado de cacao tostado' },
+      { n: '—', name: 'Petit fours', desc: 'Elaboraciones del obrador de Aurum' },
+    ],
+  },
+  awards: {
+    michelinLabel: 'Michelin Guide España · Tres Estrellas desde 2008',
+    press: [
+      "World's 50 Best · #12",
+      'The New York Times · 4 Stars',
+      'Financial Times · Restaurant of the Year',
+      'El País · Premio Nacional',
+      'Gourmet Traveller · #1 Europa',
+    ],
+  },
+  gallery: {
+    headingPrefix: 'La',
+    headingItalic: 'Galería',
+    seasonLabel: 'Temporada invierno 2025',
+    viewLabel: 'Ver',
+    items: [
+      { id: 'photo-1414235077428-338989a2e8c0', caption: 'Ostra · Mar · Piedra' },
+      { id: 'photo-1551218808-94e220e084d2', caption: 'La sala de Aurum' },
+      { id: 'photo-1504674900247-0877df9cc836', caption: 'Lechazo · Manzana · Trufa' },
+      { id: 'photo-1466978913421-dad2ebd01d17', caption: 'La noche de servicio' },
+      { id: 'photo-1482049016688-2d3e1b311543', caption: 'Chocolate · Caramelo · Sal' },
+    ],
+  },
+  testimonials: {
+    label: 'Prensa internacional',
+    dotLabel: 'Ver testimonio',
+    quotes: [
+      {
+        q: 'Una cena en Aurum no es una cena. Es lo más parecido a leer una gran novela en una sola noche.',
+        author: 'Jay Rayner',
+        pub: 'The Guardian',
+      },
+      {
+        q: 'Vega ha logrado algo que toma toda una vida: una cocina que se siente al mismo tiempo ancestral e inexplorada.',
+        author: 'Pete Wells',
+        pub: 'The New York Times',
+      },
+      {
+        q: 'Tres estrellas no son suficientes para describir lo que sucede en esa sala de veintiocho cubiertos en Donostia.',
+        author: 'Rafael García Santos',
+        pub: 'Lo Mejor de la Gastronomía',
+      },
+    ],
+  },
+  reservation: {
+    eyebrow: 'Reservas',
+    headingLine1: 'Reserve',
+    headingLine2Italic: 'Su Mesa',
+    body: 'Aceptamos solicitudes con un máximo de tres meses de antelación. Confirmamos disponibilidad en 48 horas. La experiencia dura aproximadamente siete horas.',
+    info: [
+      { l: 'Horario de servicio', v: 'Martes a Sábado · 20:00h' },
+      { l: 'Teléfono', v: '+34 943 000 000' },
+      { l: 'Email', v: 'reservas@aurum.es' },
+      { l: 'Dirección', v: 'Calle Mayor 1 · Donostia' },
+    ],
+    form: {
+      nameLabel: 'Nombre completo',
+      namePlaceholder: 'Su nombre',
+      emailLabel: 'Correo electrónico',
+      dateLabel: 'Fecha preferida',
+      guestsLabel: 'Comensales',
+      guestSingular: 'comensal',
+      guestPlural: 'comensales',
+      notesLabel: 'Comentarios especiales',
+      notesPlaceholder: 'Alergias, celebraciones, preferencias...',
+      submit: 'Enviar Solicitud',
+      successTitle: 'Solicitud recibida',
+      successBody: 'Gracias. Confirmaremos la disponibilidad de su mesa por correo electrónico dentro de las próximas 48 horas.',
+      successReset: 'Hacer otra solicitud',
+    },
+  },
+  footer: {
+    tagline: 'Ristorante · Donostia · ★★★',
+    address: ['Calle Mayor 1', '20003 Donostia-San Sebastián', 'País Vasco, España'],
+    restaurantTitle: 'Restaurante',
+    restaurantLinks: ['Menú degustación', 'El Chef', 'Nuestra historia', 'Galería', 'Prensa'],
+    reservationsTitle: 'Reservas',
+    reservationLinks: ['Solicitar mesa', 'Eventos privados', 'Maridaje de vinos', 'FAQ', 'Cancelaciones'],
+    contactTitle: 'Contacto',
+    contact: [
+      { l: 'Teléfono', v: '+34 943 000 000' },
+      { l: 'Email', v: 'reservas@aurum.es' },
+      { l: 'Horario', v: 'Mar – Sáb 20:00h' },
+    ],
+    copyright: '© 2025 Aurum Restaurante S.L. Todos los derechos reservados.',
+    social: ['Instagram', 'Facebook', 'LinkedIn'],
+    credit: {
+      label: 'Proyecto conceptual',
+      designedBy: 'Diseñado y desarrollado por',
+      devName: 'Dev-Sot',
+      brandLabel: 'Estudio',
+      brandName: 'Extracurricular',
+      linkedin: 'LinkedIn (próximamente)',
+    },
+  },
+  caseStudy: {
+    metaTitle: 'El Proyecto — Aurum',
+    eyebrow: 'Case Study',
+    title: 'Sobre este proyecto',
+    subtitle: 'Aurum es una pieza de portafolio: un sitio conceptual de alta cocina construido para explorar composición editorial, sistemas de diseño y desarrollo asistido por IA en un flujo de trabajo real.',
+    sections: [
+      {
+        heading: 'Objetivo',
+        body: [
+          'Aurum no es un restaurante real. Es un ejercicio de diseño y desarrollo frontend con la restricción de un brief de lujo: tipografía como protagonista, mucho espacio negativo, microinteracciones discretas y cero compromisos visuales entre secciones.',
+          'El objetivo técnico era doble: producir una interfaz que pudiera sostenerse frente a trabajo de estudios como Locomotive o Basic Agency, y hacerlo con una arquitectura de código que un equipo real pudiera mantener — sin atajos que se noten seis meses después.',
+        ],
+      },
+      {
+        heading: 'Proceso de diseño',
+        body: [
+          'El proyecto nació dentro de Figma Make, que exporta un primer borrador funcional en React directamente desde el lienzo de diseño. Ese borrador — un único archivo de más de 1100 líneas con estilos inline — fue el punto de partida real, no un mockup estático.',
+          'A partir de ahí, el trabajo fue de refinamiento iterativo: auditar composición, espaciado y jerarquía tipográfica sección por sección, y decidir en cada caso si el patrón original ya funcionaba o merecía romperse.',
+        ],
+      },
+      {
+        heading: 'Sistema de diseño',
+        body: [
+          'Paleta de cinco tonos (negro cálido, marfil, gris, bronce, champagne) definida como tokens de color en Tailwind v4 vía @theme, no como valores sueltos repetidos por archivo.',
+          'Tipografía dual: Bodoni Moda para todo lo que necesita presencia (títulos, cifras, citas) e Inter para todo lo funcional (labels, cuerpo de texto, formularios), con tracking amplio en mayúsculas como firma visual constante.',
+          'Componentes primitivos deliberadamente delgados (Heading, Body, Eyebrow, Button, Reveal) que fijan solo lo que nunca cambia entre usos — para evitar el conflicto de especificidad de Tailwind cuando una clase base y una de override compiten por la misma propiedad.',
+        ],
+      },
+      {
+        heading: 'Tecnologías',
+        body: [
+          'React 19 + TypeScript estricto sobre Vite, con Tailwind CSS v4 (motor @theme, sin configuración PostCSS separada) y Framer Motion para todo el sistema de revelado en scroll y el parallax del hero.',
+          'Sin backend: el formulario de reserva, el selector de idioma y el carrusel de testimonios funcionan enteramente con estado local de React. El i18n y el ruteo entre esta página y la principal son implementaciones propias, sin librerías externas — una decisión deliberada, no una limitación técnica.',
+        ],
+      },
+      {
+        heading: 'Arquitectura',
+        body: [
+          'src/sections agrupa una sección por archivo; src/components contiene solo primitivos reutilizables sin conocimiento del contenido; src/i18n centraliza cada string de la interfaz en un único objeto tipado por idioma, de forma que TypeScript falla la compilación si falta una traducción.',
+          'Ningún componente de sección importa texto hardcodeado: todo pasa por el hook useTranslation(), lo que hace que añadir un tercer idioma sea, en teoría, cuestión de un archivo nuevo.',
+        ],
+      },
+      {
+        heading: 'Animaciones',
+        body: [
+          'Cada sección observa su propia visibilidad con el hook useInView de Framer Motion y revela su contenido una sola vez, con un desplazamiento vertical de 30px y una curva cubic-bezier(0.16,1,0.3,1) — una entrada con desaceleración pronunciada, pensada para sentirse editorial, no llamativa.',
+          'El parallax del hero usa useScroll + useTransform en vez de recalcular la posición en cada evento de scroll manualmente, evitando renders innecesarios de React.',
+        ],
+      },
+      {
+        heading: 'Accesibilidad',
+        body: [
+          'Enlaces de navegación con anchors reales a ids de sección (antes eran href="#" sin destino), skip-link al contenido principal, estados de foco visibles en botones, enlaces, inputs y los puntos del carrusel de testimonios.',
+          'Toda la animación respeta prefers-reduced-motion vía MotionConfig, y el contraste de color se verificó contra WCAG AA — un tono secundario (gris apagado del footer) no pasaba el mínimo de 4.5:1 y se ajustó tras medirlo.',
+        ],
+      },
+      {
+        heading: 'Optimización',
+        body: [
+          'El responsive se construyó mobile-first con un solo conjunto de valores compartidos por sección (sectionPadding) en vez de reglas sueltas repetidas, y los grids multi-columna colapsan a una sola columna por defecto en vez de comprimirse.',
+          'Las imágenes usan contenedores con altura fija para reservar espacio y evitar layout shift, y el build de producción se verificó en cada iteración con TypeScript estricto y Vite build.',
+        ],
+      },
+      {
+        heading: 'Desafíos',
+        body: [
+          'El mayor problema no fue visual sino estructural: la primera versión no tenía ni un solo breakpoint responsive. Se detectó con una captura real a 390px de ancho, no por inspección visual del código — el layout de escritorio simplemente no colapsaba en columnas en móvil.',
+          'El segundo fue más sutil: al extraer los estilos inline a componentes de Tailwind, un color de texto quedó sin definir en varios títulos, dejándolos casi invisibles sobre el fondo negro. Solo se detectó al comparar capturas de pantalla reales contra el diseño original, lo que confirmó que la verificación visual automatizada no es opcional en un proyecto de este tipo.',
+        ],
+      },
+      {
+        heading: 'Lecciones aprendidas',
+        body: [
+          'Separar los valores que nunca cambian de los que varían por sección (tipografía base vs. tamaño/color específico) evita conflictos de especificidad en Tailwind que son difíciles de depurar porque no son errores — el CSS compila bien, simplemente no gana la regla que uno espera.',
+          'Construir con IA de forma iterativa funciona mejor con checkpoints de verificación explícitos (type-check, build, capturas reales en los tres breakpoints) que confiando en que el código "se ve bien" por descripción. La disciplina fue: cada cambio estructural grande se verificó visualmente antes de continuar con el siguiente.',
+        ],
+      },
+    ],
+    factsHeading: 'En números',
+    facts: [
+      { label: 'Stack', value: 'React 19 · TypeScript · Tailwind v4 · Framer Motion' },
+      { label: 'Secciones', value: '13 + página de proyecto' },
+      { label: 'Idiomas', value: 'Español / English' },
+      { label: 'Dependencias externas de i18n/routing', value: '0' },
+      { label: 'Origen', value: 'Figma Make → refactor iterativo' },
+    ],
+  },
+}
