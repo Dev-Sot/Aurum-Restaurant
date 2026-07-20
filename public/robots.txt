@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# TODO: replace with the real deployment domain before going live
-Sitemap: https://aurum.example.com/sitemap.xml
+Sitemap: https://aurum-restaurant-two.vercel.app/sitemap.xml

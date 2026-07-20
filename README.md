@@ -12,7 +12,7 @@ A concept fine-dining website for a fictional three-Michelin-star restaurant in 
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF?logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-[Live Demo](https://aurum.example.com) · [Case Study](https://aurum.example.com/case-study) · [Report a bug](https://github.com/Dev-Sot/Aurum-Restaurant/issues)
+[Live Demo](https://aurum-restaurant-two.vercel.app) · [Case Study](https://aurum-restaurant-two.vercel.app/case-study) · [Report a bug](https://github.com/Dev-Sot/Aurum-Restaurant/issues)
 
 <br />
 
@@ -21,11 +21,6 @@ A concept fine-dining website for a fictional three-Michelin-star restaurant in 
 </div>
 
 <br />
-
-> **Note on the demo link** — this repository doesn't ship with a hosted
-> deployment yet. The URLs above are placeholders; swap them for the real
-> ones once the project is deployed (see [SEO & metadata](#seo--metadata)
-> for every file that needs the same update).
 
 ## Table of contents
 
@@ -59,7 +54,7 @@ palette.
 
 The full build process — including the decisions, the mistakes caught along
 the way, and what was learned — is written up in the in-app
-**[Case Study](https://aurum.example.com/case-study)** page (`/case-study`),
+**[Case Study](https://aurum-restaurant-two.vercel.app/case-study)** page (`/case-study`),
 not just this README.
 
 ## Features
@@ -197,24 +192,20 @@ Title, description, `robots` and the favicon are configured centrally in
 it doesn't cover — `keywords`, `author`, Twitter Card fallback, the canonical
 URL — are set directly in [`index.html`](./index.html).
 
-**Before deploying to a real domain**, update the placeholder
-`https://aurum.example.com` in all of these:
+Deployed on Vercel at **https://aurum-restaurant-two.vercel.app** — the
+canonical URL, `robots.txt`, `sitemap.xml` and `package.json#homepage` all
+point there. If the project ever moves to a custom domain, update the same
+four places (plus the demo links at the top of this README).
 
-- `index.html` (`<link rel="canonical">`)
-- `public/robots.txt` (`Sitemap:` line)
-- `public/sitemap.xml` (both `<loc>` entries)
-- `package.json` (`homepage`)
-- This README (demo links at the top)
-
-And once a real Open Graph image exists, add it as `openGraph.image` in
+Once a real Open Graph image exists, add it as `openGraph.image` in
 `.figma/make/site.json` and remove the Twitter Card fallback block noted in
 `index.html`.
 
 ## Roadmap
 
+- [x] Deploy ([live on Vercel](https://aurum-restaurant-two.vercel.app))
 - [ ] Add real Open Graph / Twitter preview image
-- [ ] Add the screenshots referenced in `docs/images/`
-- [ ] Deploy and swap every placeholder domain for the real one
+- [ ] Add the remaining screenshots referenced in `docs/images/`
 - [ ] Personal voice pass on the Case Study's "Challenges" and "Lessons
       Learned" sections (`src/i18n/es.ts` / `en.ts`)
 - [ ] Optional: a third language

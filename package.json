@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "A concept fine-dining website for a fictional three-Michelin-star restaurant — a frontend portfolio piece exploring editorial composition, a hand-built design system, custom i18n/routing, and AI-assisted development.",
   "type": "module",
-  "homepage": "https://aurum.example.com",
+  "homepage": "https://aurum-restaurant-two.vercel.app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dev-Sot/Aurum-Restaurant.git"
