@@ -16,7 +16,7 @@ A concept fine-dining website for a fictional three-Michelin-star restaurant in 
 
 <br />
 
-<img src="./docs/images/landing.png" alt="Aurum — full landing page" width="100%" />
+<img src="./docs/images/hero.png" alt="Aurum — hero section" width="100%" />
 
 </div>
 
